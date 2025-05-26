@@ -13,6 +13,8 @@ function App() { //nma file
   return ( //isi kode
     <>
 
+    <h1>hallo</h1>
+
     {/* memanggil dari file lain
     <CardName />
     <HomePage/> */}
