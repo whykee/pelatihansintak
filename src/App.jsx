@@ -15,6 +15,7 @@ function App() { //nma file
 
     <h1>hallo</h1>
 
+    <h2>yayaya</h2>
     {/* memanggil dari file lain
     <CardName />
     <HomePage/> */}
