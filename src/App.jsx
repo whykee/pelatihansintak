@@ -14,6 +14,7 @@ function App() { //nma file
     <>
 
     <h1>hallo</h1>
+    <h1>hallo 2</h1>
 
     {/* memanggil dari file lain
     <CardName />
