@@ -1,0 +1,34 @@
+import "./App.css"
+
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import HomePage from "./Pages/HomePage";
+import About from "./Pages/About";
+import Produk from "./Pages/Produk";
+import Kontak from "./Pages/Kontak";
+import NotFoundPage from "./Pages/NotFoundPage";
+
+function App() { //nma file
+
+  return ( //isi kode
+    <>
+
+    {/* memanggil dari file lain
+    <CardName />
+    <HomePage/> */}
+
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/produk" element={<Produk />} />
+        <Route path="/kontak" element={<Kontak />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </Router>
+  
+    </>
+  );
+}
+
+export default App;
